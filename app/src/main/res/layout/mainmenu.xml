@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="50px"
+        android:src="@drawable/logo"
+        android:layout_weight="0.18" />
+    <Button
+        android:text="Play"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:elevation="0dp"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="100px"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-medium"
+        android:typeface="normal"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="Options"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/playButton"
+        android:elevation="0dp"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="100px"
+        android:layout_weight="0.05"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-medium"
+        android:typeface="normal"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="Settings"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:elevation="0dp"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="100px"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-medium"
+        android:typeface="normal"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+</LinearLayout>
